@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		723A66552A9DE19D00B6F4E9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A66542A9DE19D00B6F4E9 /* Character.swift */; };
+		723A66592A9DE1D500B6F4E9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A66582A9DE1D500B6F4E9 /* Service.swift */; };
+		723A665B2A9DE20100B6F4E9 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A665A2A9DE20100B6F4E9 /* HomePageViewController.swift */; };
+		723A665D2A9DE21000B6F4E9 /* DetailsCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A665C2A9DE21000B6F4E9 /* DetailsCharacterViewController.swift */; };
+		723A66602A9DEDD400B6F4E9 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A665F2A9DEDD400B6F4E9 /* HomePageViewModel.swift */; };
+		723A66632A9E126700B6F4E9 /* CharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A66612A9E126700B6F4E9 /* CharacterTableViewCell.swift */; };
+		723A66642A9E126700B6F4E9 /* CharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723A66622A9E126700B6F4E9 /* CharacterTableViewCell.xib */; };
+		723A66672A9E1E7D00B6F4E9 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 723A66662A9E1E7D00B6F4E9 /* Kingfisher */; };
+		723A66782A9E6F9B00B6F4E9 /* DetailsCharacterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A66762A9E6F9B00B6F4E9 /* DetailsCharacterTableViewCell.swift */; };
+		723A66792A9E6F9B00B6F4E9 /* DetailsCharacterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723A66772A9E6F9B00B6F4E9 /* DetailsCharacterTableViewCell.xib */; };
+		723A667B2A9E90B400B6F4E9 /* DetailsCharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A667A2A9E90B400B6F4E9 /* DetailsCharacterViewModel.swift */; };
+		723A667E2A9EAF3800B6F4E9 /* HeaderDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A667C2A9EAF3800B6F4E9 /* HeaderDetailsTableViewCell.swift */; };
+		723A667F2A9EAF3800B6F4E9 /* HeaderDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723A667D2A9EAF3800B6F4E9 /* HeaderDetailsTableViewCell.xib */; };
+		72ECCF942A9DC61B00DA7002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECCF932A9DC61B00DA7002 /* AppDelegate.swift */; };
+		72ECCF962A9DC61B00DA7002 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72ECCF952A9DC61B00DA7002 /* SceneDelegate.swift */; };
+		72ECCF9B2A9DC61B00DA7002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ECCF992A9DC61B00DA7002 /* Main.storyboard */; };
+		72ECCF9D2A9DC61B00DA7002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72ECCF9C2A9DC61B00DA7002 /* Assets.xcassets */; };
+		72ECCFA02A9DC61B00DA7002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72ECCF9E2A9DC61B00DA7002 /* LaunchScreen.storyboard */; };
+		9444499052408B2FB0E0068E /* Pods_PayBox_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49ED00CF07B2E752ED811BE /* Pods_PayBox_Assignment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		116613B9EF59AEFA08D65D64 /* Pods-PayBox-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayBox-Assignment.release.xcconfig"; path = "Target Support Files/Pods-PayBox-Assignment/Pods-PayBox-Assignment.release.xcconfig"; sourceTree = "<group>"; };
+		72242D3B2A9F70AB00B5BB02 /* PayBox-Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PayBox-Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		723A66542A9DE19D00B6F4E9 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		723A66582A9DE1D500B6F4E9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		723A665A2A9DE20100B6F4E9 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		723A665C2A9DE21000B6F4E9 /* DetailsCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCharacterViewController.swift; sourceTree = "<group>"; };
+		723A665F2A9DEDD400B6F4E9 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
+		723A66612A9E126700B6F4E9 /* CharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTableViewCell.swift; sourceTree = "<group>"; };
+		723A66622A9E126700B6F4E9 /* CharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterTableViewCell.xib; sourceTree = "<group>"; };
+		723A66762A9E6F9B00B6F4E9 /* DetailsCharacterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCharacterTableViewCell.swift; sourceTree = "<group>"; };
+		723A66772A9E6F9B00B6F4E9 /* DetailsCharacterTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsCharacterTableViewCell.xib; sourceTree = "<group>"; };
+		723A667A2A9E90B400B6F4E9 /* DetailsCharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCharacterViewModel.swift; sourceTree = "<group>"; };
+		723A667C2A9EAF3800B6F4E9 /* HeaderDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		723A667D2A9EAF3800B6F4E9 /* HeaderDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		72ECCF932A9DC61B00DA7002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72ECCF952A9DC61B00DA7002 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		72ECCF9A2A9DC61B00DA7002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72ECCF9C2A9DC61B00DA7002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72ECCF9F2A9DC61B00DA7002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72ECCFA12A9DC61B00DA7002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49ED00CF07B2E752ED811BE /* Pods_PayBox_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayBox_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC5775BBF3EFC3EC76318D1 /* Pods-PayBox-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayBox-Assignment.debug.xcconfig"; path = "Target Support Files/Pods-PayBox-Assignment/Pods-PayBox-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72ECCF8D2A9DC61B00DA7002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				723A66672A9E1E7D00B6F4E9 /* Kingfisher in Frameworks */,
+				9444499052408B2FB0E0068E /* Pods_PayBox_Assignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6589D5948269DB0317121047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E49ED00CF07B2E752ED811BE /* Pods_PayBox_Assignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		723A66522A9DE18100B6F4E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				723A66802A9EBA6300B6F4E9 /* Header Detail Cell */,
+				723A666D2A9E3B0B00B6F4E9 /* Details View Cell */,
+				723A665E2A9DE4BA00B6F4E9 /* Home Page Cells */,
+				723A665A2A9DE20100B6F4E9 /* HomePageViewController.swift */,
+				723A665C2A9DE21000B6F4E9 /* DetailsCharacterViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		723A66532A9DE18D00B6F4E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				723A66542A9DE19D00B6F4E9 /* Character.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		723A66562A9DE1BF00B6F4E9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				723A66582A9DE1D500B6F4E9 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		723A665E2A9DE4BA00B6F4E9 /* Home Page Cells */ = {
+			isa = PBXGroup;
+			children = (
+				723A66612A9E126700B6F4E9 /* CharacterTableViewCell.swift */,
+				723A66622A9E126700B6F4E9 /* CharacterTableViewCell.xib */,
+			);
+			path = "Home Page Cells";
+			sourceTree = "<group>";
+		};
+		723A666D2A9E3B0B00B6F4E9 /* Details View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				723A66762A9E6F9B00B6F4E9 /* DetailsCharacterTableViewCell.swift */,
+				723A66772A9E6F9B00B6F4E9 /* DetailsCharacterTableViewCell.xib */,
+			);
+			path = "Details View Cell";
+			sourceTree = "<group>";
+		};
+		723A66802A9EBA6300B6F4E9 /* Header Detail Cell */ = {
+			isa = PBXGroup;
+			children = (
+				723A667C2A9EAF3800B6F4E9 /* HeaderDetailsTableViewCell.swift */,
+				723A667D2A9EAF3800B6F4E9 /* HeaderDetailsTableViewCell.xib */,
+			);
+			path = "Header Detail Cell";
+			sourceTree = "<group>";
+		};
+		72ECCF872A9DC61A00DA7002 = {
+			isa = PBXGroup;
+			children = (
+				72ECCF922A9DC61B00DA7002 /* PayBox-Assignment */,
+				72242D3B2A9F70AB00B5BB02 /* PayBox-Assignment.app */,
+				F369C4711F28F7BE7D704413 /* Pods */,
+				6589D5948269DB0317121047 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72ECCF922A9DC61B00DA7002 /* PayBox-Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				723A66562A9DE1BF00B6F4E9 /* Service */,
+				723A66532A9DE18D00B6F4E9 /* Model */,
+				723A66522A9DE18100B6F4E9 /* View */,
+				72ECCFA72A9DCA6900DA7002 /* ViewModel */,
+				72ECCF932A9DC61B00DA7002 /* AppDelegate.swift */,
+				72ECCF952A9DC61B00DA7002 /* SceneDelegate.swift */,
+				72ECCF992A9DC61B00DA7002 /* Main.storyboard */,
+				72ECCF9C2A9DC61B00DA7002 /* Assets.xcassets */,
+				72ECCF9E2A9DC61B00DA7002 /* LaunchScreen.storyboard */,
+				72ECCFA12A9DC61B00DA7002 /* Info.plist */,
+			);
+			path = "PayBox-Assignment";
+			sourceTree = "<group>";
+		};
+		72ECCFA72A9DCA6900DA7002 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				723A665F2A9DEDD400B6F4E9 /* HomePageViewModel.swift */,
+				723A667A2A9E90B400B6F4E9 /* DetailsCharacterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F369C4711F28F7BE7D704413 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FCC5775BBF3EFC3EC76318D1 /* Pods-PayBox-Assignment.debug.xcconfig */,
+				116613B9EF59AEFA08D65D64 /* Pods-PayBox-Assignment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72ECCF8F2A9DC61B00DA7002 /* PayBox-Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72ECCFA42A9DC61B00DA7002 /* Build configuration list for PBXNativeTarget "PayBox-Assignment" */;
+			buildPhases = (
+				248E443EF6FF9F8DC2932597 /* [CP] Check Pods Manifest.lock */,
+				72ECCF8C2A9DC61B00DA7002 /* Sources */,
+				72ECCF8D2A9DC61B00DA7002 /* Frameworks */,
+				72ECCF8E2A9DC61B00DA7002 /* Resources */,
+				BE4B6068758A1A5EEE6D2E9B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PayBox-Assignment";
+			packageProductDependencies = (
+				723A66662A9E1E7D00B6F4E9 /* Kingfisher */,
+			);
+			productName = "PayBox-Assignment";
+			productReference = 72242D3B2A9F70AB00B5BB02 /* PayBox-Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72ECCF882A9DC61A00DA7002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					72ECCF8F2A9DC61B00DA7002 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 72ECCF8B2A9DC61A00DA7002 /* Build configuration list for PBXProject "PayBox-Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72ECCF872A9DC61A00DA7002;
+			packageReferences = (
+				723A66652A9E1E7D00B6F4E9 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 72ECCF872A9DC61A00DA7002;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72ECCF8F2A9DC61B00DA7002 /* PayBox-Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72ECCF8E2A9DC61B00DA7002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECCFA02A9DC61B00DA7002 /* LaunchScreen.storyboard in Resources */,
+				72ECCF9D2A9DC61B00DA7002 /* Assets.xcassets in Resources */,
+				72ECCF9B2A9DC61B00DA7002 /* Main.storyboard in Resources */,
+				723A667F2A9EAF3800B6F4E9 /* HeaderDetailsTableViewCell.xib in Resources */,
+				723A66792A9E6F9B00B6F4E9 /* DetailsCharacterTableViewCell.xib in Resources */,
+				723A66642A9E126700B6F4E9 /* CharacterTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		248E443EF6FF9F8DC2932597 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayBox-Assignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE4B6068758A1A5EEE6D2E9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayBox-Assignment/Pods-PayBox-Assignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayBox-Assignment/Pods-PayBox-Assignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayBox-Assignment/Pods-PayBox-Assignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72ECCF8C2A9DC61B00DA7002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72ECCF942A9DC61B00DA7002 /* AppDelegate.swift in Sources */,
+				723A66632A9E126700B6F4E9 /* CharacterTableViewCell.swift in Sources */,
+				723A665B2A9DE20100B6F4E9 /* HomePageViewController.swift in Sources */,
+				723A665D2A9DE21000B6F4E9 /* DetailsCharacterViewController.swift in Sources */,
+				723A667E2A9EAF3800B6F4E9 /* HeaderDetailsTableViewCell.swift in Sources */,
+				723A66602A9DEDD400B6F4E9 /* HomePageViewModel.swift in Sources */,
+				723A66592A9DE1D500B6F4E9 /* Service.swift in Sources */,
+				72ECCF962A9DC61B00DA7002 /* SceneDelegate.swift in Sources */,
+				723A667B2A9E90B400B6F4E9 /* DetailsCharacterViewModel.swift in Sources */,
+				723A66782A9E6F9B00B6F4E9 /* DetailsCharacterTableViewCell.swift in Sources */,
+				723A66552A9DE19D00B6F4E9 /* Character.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72ECCF992A9DC61B00DA7002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72ECCF9A2A9DC61B00DA7002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72ECCF9E2A9DC61B00DA7002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72ECCF9F2A9DC61B00DA7002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72ECCFA22A9DC61B00DA7002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72ECCFA32A9DC61B00DA7002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72ECCFA52A9DC61B00DA7002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC5775BBF3EFC3EC76318D1 /* Pods-PayBox-Assignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PayBox-Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yam.PayBox-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72ECCFA62A9DC61B00DA7002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116613B9EF59AEFA08D65D64 /* Pods-PayBox-Assignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PayBox-Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Yam.PayBox-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72ECCF8B2A9DC61A00DA7002 /* Build configuration list for PBXProject "PayBox-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ECCFA22A9DC61B00DA7002 /* Debug */,
+				72ECCFA32A9DC61B00DA7002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72ECCFA42A9DC61B00DA7002 /* Build configuration list for PBXNativeTarget "PayBox-Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72ECCFA52A9DC61B00DA7002 /* Debug */,
+				72ECCFA62A9DC61B00DA7002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		723A66652A9E1E7D00B6F4E9 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		723A66662A9E1E7D00B6F4E9 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 723A66652A9E1E7D00B6F4E9 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 72ECCF882A9DC61A00DA7002 /* Project object */;
+}

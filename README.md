@@ -1,7 +1,5 @@
 # RickAndMortyApplication
 
-## Overview
-
 The Rick and Morty App is a Swift-based iOS application that allows users to explore information about the characters from the popular animated TV series "Rick and Morty."
 
 ## Dependencies
